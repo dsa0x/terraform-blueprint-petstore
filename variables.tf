@@ -7,4 +7,4 @@ variable "word-length" {
   description = "length of word"
   type        = number
   default     = 5
-}
+
