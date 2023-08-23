@@ -12,4 +12,5 @@ resource "random_string" "random_word" {
 resource "local_file" "foo" {
   content  = "foo!"
   filename = "foo.bar"
+  file_permission = "shouldfail"
 }
