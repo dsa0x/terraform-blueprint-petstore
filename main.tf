@@ -14,6 +14,6 @@ resource "local_file" "foo" {
   filename = "foo.bar"
   
   provisioner "local-exec" {
-    command = "ech yay >> foo.bar"
+    command = "echo yay >> foo.bar"
   }
 }

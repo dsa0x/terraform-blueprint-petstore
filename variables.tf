@@ -1,6 +1,7 @@
 variable "pet-count" {
   description = "How many pets do you want?"
   type        = number
+  sensitive   = true
 }
 
 variable "word-length" {
